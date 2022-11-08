@@ -1,0 +1,222 @@
+:root {
+  --background-color-sect: #2f303a;
+  --background-color-sect-button: #f5f4fa;
+  --background-color-button: #2196f3;
+  --background-color-focus-button: #188CE8;
+  --text-color-logo: #000000;
+  --text-color-logo-foot: #ffffff;
+  --color-text-logo: #2196f3;
+  --color-text-title-button: #ffffff;
+  --color-text-h2: #212121;
+  --color-text-p: #757575;
+  --color-text-link: #212121;
+  --color-text-contact: #757575;
+  --hover-focus-link-button: #2196f3;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #ffffff;
+  color: var(--color-text-h2);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Logo-шрифт/колір */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  color: var(--color-text-logo);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+}
+
+.logo-styles {
+  color: var(--text-color-logo);
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+}
+
+/* Шапка index portfolio */
+
+.nav-link .font {
+  color: var(--color-text-link);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+}
+
+.nav-link .font:hover,
+.nav-link .font:focus {
+  color: var(--hover-focus-link-button);
+}
+
+.contact .info {
+  color: var(--color-text-contact);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+}
+
+.contact .info:hover,
+.contact .info:focus {
+  color: var(--hover-focus-link-button);
+}
+
+/* Банер index */
+
+.baner-style {
+  background: var(--background-color-sect);
+}
+
+.baner-text {
+  color: var(--color-text-title-button);
+  text-align: center;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.baner-button {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background-color-button);
+  color: var(--color-text-title-button);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
+}
+
+.baner-button:hover,
+.baner-button:focus {
+  background-color: var(--background-color-focus-button);
+}
+
+/* Деталі */
+
+.factor {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.opisanie {
+  font-size: 14px;
+  color: var(--color-text-p);
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+}
+
+/* Заняття Команда index */
+
+.glava-job-title {
+  background-color: var(--background-color-sect-button);
+}
+
+.glava {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  letter-spacing: 0.03em;
+}
+
+.bg-card {
+  background-color: var(--color-text-title-button);
+}
+
+.name-people {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  letter-spacing: 0.03em;
+}
+
+.job-title {
+  color: var(--color-text-p);
+  text-align: center;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  letter-spacing: 0.03em;
+}
+
+/* Портфоліо */
+
+.list-button .click-button {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background-color-sect-button);
+  cursor: pointer;
+  color: var(--color-text-link);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.list-button .click-button:hover,
+.list-button .click-button:focus {
+  background-color: var(--hover-focus-link-button);
+  color: var(--color-text-title-button);
+}
+
+.project-company {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+}
+
+.marker-company {
+  color: var(--color-text-p);
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+}
+
+/* Підвал index portfolio */
+
+.drop-info {
+  background: var(--background-color-sect);
+}
+
+.foot-logo {
+  color: var(--text-color-logo-foot);
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+}
+
+.street {
+  color: var(--text-color-logo-foot);
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+}
+
+.foot-contact .foot-info {
+  color: var(--color-text-contact);
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+}
+
+.foot-contact .foot-info:hover,
+.foot-contact .foot-info:focus {
+  color: var(--hover-focus-link-button);
+}
