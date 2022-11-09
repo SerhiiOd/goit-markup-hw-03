@@ -2,7 +2,7 @@
   --background-color-sect: #2f303a;
   --background-color-sect-button: #f5f4fa;
   --background-color-button: #2196f3;
-  --background-color-focus-button: #188CE8;
+  --background-color-focus-button: #188ce8;
   --text-color-logo: #000000;
   --text-color-logo-foot: #ffffff;
   --color-text-logo: #2196f3;
@@ -90,7 +90,7 @@ a {
 }
 
 .baner-button {
-  font-family: 'Roboto', sans-serif;
+  font-family: inherit;
   background-color: var(--background-color-button);
   color: var(--color-text-title-button);
   cursor: pointer;
@@ -159,7 +159,7 @@ a {
 /* Портфоліо */
 
 .list-button .click-button {
-  font-family: 'Roboto', sans-serif;
+  font-family: inherit;
   background-color: var(--background-color-sect-button);
   cursor: pointer;
   color: var(--color-text-link);
@@ -171,7 +171,8 @@ a {
 }
 
 .list-button .click-button:hover,
-.list-button .click-button:focus {
+.list-button .click-button:focus,
+.list-button .click-button:active {
   background-color: var(--hover-focus-link-button);
   color: var(--color-text-title-button);
 }
@@ -200,6 +201,10 @@ a {
   color: var(--text-color-logo-foot);
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
+}
+
+.foot-adress {
+  font-style: normal;
 }
 
 .street {
