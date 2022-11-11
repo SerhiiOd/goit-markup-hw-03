@@ -38,10 +38,28 @@ a {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
 /* Контейнери та відступи / стилі */
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .headers {
-  border: 1px solid #ECECEC;
+  border: 1px solid #ececec;
 }
 
 /* Logo-шрифт/колір */
