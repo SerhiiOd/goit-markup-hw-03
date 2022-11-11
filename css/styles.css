@@ -14,16 +14,6 @@
   --hover-focus-link-button: #2196f3;
 }
 
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 body {
   font-family: 'Roboto', sans-serif;
   background: #ffffff;
@@ -36,30 +26,6 @@ ul {
 
 a {
   text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-p,
-ul {
-  margin: 0;
-}
-
-/* Контейнери та відступи / стилі */
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.headers {
-  border: 1px solid #ececec;
 }
 
 /* Logo-шрифт/колір */
